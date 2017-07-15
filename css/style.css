@@ -1,0 +1,148 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: "Exo 2";
+}
+#intro{
+	height: 800px;
+	background: url(../img/bg.png);
+	background-size: cover;
+}
+.intro-text{
+	padding-top: 250px;
+	text-align: center;
+}
+.intro-text h1{
+	font-size: 68px;
+	color: white;
+text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+.intro-text p{
+	font-size:36px;
+color: white;
+text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+             0px 8px 13px rgba(0,0,0,0.1),
+             0px 18px 23px rgba(0,0,0,0.1);
+}
+#about{
+	padding: 105px 0;
+}
+#about img{
+	border-radius: 50%;
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+#about p{
+	padding:20px 0;
+	display: block;
+	margin: auto;
+}
+#portfolio{
+	padding: 90px 0;
+}
+.portfolio {
+	margin-bottom: 40px;
+}
+#portfolio img{
+	filter: Blur(3px);
+	transition: .3s ease-in-out;
+}
+#portfolio img:hover{
+	filter: blur(0);
+	transform: scale(1.1);
+	border: none;
+	box-sizing: border-box;
+}
+
+/*SKIIIIIIIL*/
+#skills{
+	padding: 90px 0;
+}
+#skills img{
+	border-radius: 50%;
+    width: 325px;
+    display: block;
+    margin: 0 auto 30px;
+    box-sizing: border-box;
+}
+.skillbar {
+  font-family: 'Exo 2', 'sans-serif';
+	position:relative;
+	display:block;
+	margin-bottom:15px;
+	width:100%;
+	background:#eee;
+	height:35px;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-webkit-transition:0.4s linear;
+	-moz-transition:0.4s linear;
+	-ms-transition:0.4s linear;
+	-o-transition:0.4s linear;
+	transition:0.4s linear;
+	-webkit-transition-property:width, background-color;
+	-moz-transition-property:width, background-color;
+	-ms-transition-property:width, background-color;
+	-o-transition-property:width, background-color;
+	transition-property:width, background-color;
+}
+
+.skillbar-title {
+	position:absolute;
+	top:0;
+	left:0;
+	font-weight:bold;
+	font-size:20px;
+	color:#fff;
+	background:#6adcfa;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:20px;
+	height:35px;
+	line-height:35px;
+	color:#444;
+	color:rgba(0, 0, 0, 0.4);
+}
+
+#follow{
+	height: 500px;
+}

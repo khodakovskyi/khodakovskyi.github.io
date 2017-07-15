@@ -1,0 +1,416 @@
+
+* {
+	padding: 0;
+	margin:0;
+}
+.clearfix {
+	clear:both;
+}
+.header {
+	padding-bottom: 67px;
+}
+.content {
+	width: 982px;
+	margin: auto;
+}
+.logo {
+	width:980px;
+	margin: auto;
+	padding: 26px 0 27px 0;
+}
+
+@font-face {
+	font-family: "bauhauslightctt";
+	src: url(../font/bauhauslightctt.ttf);
+
+}
+.logo a {
+	font-family: "bauhauslightctt";
+	text-decoration: none;
+	font-size: 48px;
+	padding-right: 718px;
+	color: #24b6e1;
+}
+.logo span {
+	font-family: "Arial"
+	font-size: 17px;
+	vertical-align: 33%;
+}
+
+.logo span:before {
+	display: inline-block;
+	content: url(../img/phone.png);
+	margin-right: 10px;
+	vertical-align: -33%;
+}
+
+.nav {
+	background: #f2f2f2;
+	height: 42px;
+}
+.nav ul {
+	width:980px;
+	margin: auto;
+	list-style-type: none;
+}
+.nav li {
+	float:left;
+	font-size: 15px;
+	font-family: "Arial";
+	padding: 12px 150px 13px 0;
+}
+.nav li:last-child {
+	padding-right: 0;
+}
+.nav a {
+	text-decoration: none;
+	color: #393939;
+}
+.page {
+	width:980px;
+	margin: auto;
+
+}
+.page li {
+	float:left;
+	font-size: 11px;
+	font-family: "Tahoma";
+	padding: 12px 17px 0 0;
+	list-style-type: none;
+}
+.page a {
+	text-decoration: none;
+	color: #7c7c7c;
+}
+
+.content--left {
+	width:697px;
+	float:left;
+
+}
+.content--left h1 {
+	font-family: "Tahoma";
+	font-size: 28px;
+	font-weight: normal;
+	padding-bottom: 40px;
+}
+.content--left img {
+	padding: 20px 0 20px 0;
+}
+.content--left p {
+	font-family: "Tahoma";
+	font-size: 12px;}
+.content--left h3 {
+	font-family: "Tahoma";
+	font-size: 18px;
+	font-weight: normal;
+	padding: 44px 0 23px 0;
+}
+.content--left ul {
+	padding: 11px 0 0 0;
+}
+.borderbot {
+	padding-top:30px;
+	border-bottom: 1px dotted #cacaca;
+}
+.content--left li {
+	list-style-type: none;
+	font-family: "Tahoma";
+	font-size: 12px;
+	line-height: 2;
+
+}
+.content--left li:before {
+content: "__";
+vertical-align: 30%;
+padding-right: 15px;
+}
+.wat {
+	color: #24b5e1;
+}
+
+.content--left h4 {
+	font-family: "Tahoma";
+	font-size: 12px;
+	font-weight: normal;
+	padding: 32px 0 16px 0;
+	color: #555555;
+}
+
+.watcher {
+	width: 697px;
+}
+.watcher img {
+	padding: 0 22px 28px 0;
+}
+
+.watcher img:last-child {
+	padding-right: 0;
+}
+
+.tab {
+padding-top: 30px;
+}
+.tab p {
+	font-family: "Tahoma";
+	font-size: 12px;
+	color: #555555;
+	padding-bottom: 17px;
+}
+
+.tab table {
+	table-layout: fixed;
+	width: 697px;
+	font-family: "Tahoma";
+	font-size: 11px;
+	text-align: left;
+	border-collapse: collapse;
+}
+.col1 {
+	width:83px;
+}
+.col2 {
+	width:201px;
+}
+.col3 {
+	width:159px;
+}
+.tab tr{
+	height: 34px;
+
+}
+.tab th {
+	padding-left: 14px;
+	font-weight: normal;
+	color: #7d7d7d;
+}
+.tab td {
+	padding-left: 14px;
+}
+.tab td:last-child {
+	text-align: right;
+	padding-right: 24px;
+}
+.even {
+	background: #f2f2f2;
+}
+
+.testname {
+	color:#24b6e1;
+	}
+
+.tabs {
+	padding-top: 30px;
+}
+.tabs span {
+	display: block;
+	font-family: "Tahoma";
+	font-size: 12px;
+	color: #555555;
+	padding-bottom: 30px;
+}
+.button {
+	display: block;
+	font-family: "Tahoma";
+	font-size: 12px;
+	color: #fff;
+	text-decoration: none;
+	width:235px;
+	height: 48px;
+	text-transform: uppercase;
+	font-weight: bold;
+	background: #24b6e2;
+	text-align: center;
+}
+
+.content--right {
+	padding-left: 52px;
+	width: 233px;
+	float:left;
+}
+.search {
+width:230px;
+height: 25px;
+border: 1px solid #c8c8c8;
+border-radius: 2px;
+}
+
+.search input {
+padding-top: 7px;
+padding-left: 5px;
+font-size: 11px;
+width:210px;
+
+}
+
+input[type='search']{
+    border: none;
+}
+input[type='search']:focus 
+{ outline: none; }
+
+.content--right h2 {
+	font-family: "Tahoma";
+	font-size: 24px;
+	font-weight: normal;
+	padding-top: 31px;
+	padding-bottom: 40px;
+}
+.borderbot2 {
+	padding-top:22px;
+	border-bottom: 1px dotted #cacaca;
+}
+.content--right a {
+	font-family: "Tahoma";
+	font-size: 14px;
+	color: #24b5e1;
+}
+.content--right data {
+	font-family: "Tahoma";
+	font-size: 11px;
+	color: #969696;
+}
+
+.content--right p {
+	padding-top: 18px;
+		font-family: "Tahoma";
+	font-size: 12px;
+}
+#news {
+	padding-top: 5px;
+	margin-left: 130px;
+	margin-top: 23px;
+	display: block;
+	font-family: "Tahoma";
+	font-size: 12px;
+	color: #000;
+	text-decoration: none;
+	width:100px;
+	height: 26px;
+	background: #e9e9e9;
+	text-align: center;
+	border-radius: 2px;
+	box-sizing: border-box;
+}
+
+.name, .mail {
+width:230px;
+height: 25px;
+border: 1px solid #c8c8c8;
+border-radius: 2px;
+}
+
+.name input, .mail input {
+padding-top: 5px;
+padding-left: 5px;
+font-size: 11px;
+width:210px;
+
+}
+
+input[type='name'], input[type='mail']{
+    border: none;
+}
+input[type='name'], input[type='mail']:focus 
+{ outline: none; }
+
+.content--right h3 {
+	font-family: "Tahoma";
+	font-size: 24px;
+	font-weight: normal;
+	padding-top: 44px;
+	padding-bottom: 23px;
+}
+
+#feed {
+	padding-top: 5px;
+	margin-left: 119px;
+	margin-top: 28px;
+	display: block;
+	font-family: "Tahoma";
+	font-size: 12px;
+	color: #fff;
+	text-decoration: none;
+	width:113px;
+	height: 26px;
+	background: #24b5e1;
+	text-align: center;
+	border-radius: 2px;
+	box-sizing: border-box;
+}
+.footer {
+	width: 982px;
+	margin: auto;
+}
+.footer--container {
+	display: block;
+	height: 75px;
+	padding-top: 22px;
+	box-sizing: border-box;
+}
+.footer span{
+	font-size: 11px;
+	font-family: "Tahoma";
+	color: #7c7c7c;
+	float: left;
+}
+
+.footer a{
+	padding-left: 4px;
+	float: left;
+	font-size: 11px;
+	font-family: "Tahoma";
+	color: #24b5e1;;
+}
+.left--footer, .right--footer {
+	height: 31px;
+}
+
+.left--footer {
+	float: left;
+	padding-top: 1%;
+
+}
+.right--footer {
+	float: right;
+}
+.tabs--button > div, .tabs--button > input { 
+	display: none; 
+}
+
+.vkl1 {  
+	display: inline-block;
+	height: 33px;
+	width: 110px;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	line-height: 28px;
+	cursor: pointer;
+	position: relative;
+	background: #24b6e2;
+	color: #fff;
+	font-size: 12px;
+	font-family: "Tahoma";
+	text-align: center;
+}
+.vkl2 { 
+	display: inline-block;
+	height: 33px;
+	width: 129px;
+	border-top-right-radius: 4px;
+	border-top-left-radius: 4px;
+	line-height: 28px;
+	cursor: pointer;
+	position: relative;
+	background: #24b6e2;
+	font-size: 12px;
+	font-family: "Tahoma";
+	text-align: center;
+}
+.tabs--button > input:nth-of-type(1):checked ~ div:nth-of-type(1),
+.tabs--button > input:nth-of-type(2):checked ~ div:nth-of-type(2)
+ { 
+ display: block; 
+ padding-top: 16px;
+ border-top: 1px solid #24b6e2;
+ }
